@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "samplepackageainterface",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kalub92/SamplePackageAInterface.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "7e98beb8a9bbe64fdd0b233856b50a1909752277"
+      }
+    },
+    {
+      "identity" : "samplepackageb",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kalub92/SamplePackageB.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "aa058ee89553766f87518df7e1c84e6577111dda"
+      }
+    }
+  ],
+  "version" : 2
+}
