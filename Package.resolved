@@ -10,12 +10,12 @@
       }
     },
     {
-      "identity" : "samplepackageb",
+      "identity" : "samplepackageb-ios",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/kalub92/SamplePackageB.git",
+      "location" : "https://github.com/kalub92/SamplePackageB-iOS.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "aa058ee89553766f87518df7e1c84e6577111dda"
+        "branch" : "master",
+        "revision" : "5aceda8aac7b8ea2613c121243f16e0233df4bab"
       }
     }
   ],

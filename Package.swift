@@ -21,8 +21,8 @@ let package = Package(
             branch: "main"
         ),
         .package(
-            url: "https://github.com/kalub92/SamplePackageB.git",
-            branch: "main"
+            url: "https://github.com/kalub92/SamplePackageB-iOS.git",
+            branch: "master"
         )
     ],
     targets: [
@@ -32,13 +32,13 @@ let package = Package(
             name: "SamplePackageA",
             dependencies: [
                 .product(
-                    name: "SamplePackageB",
-                    package: "SamplePackageB",
+                    name: "SamplePackageB-iOS",
+                    package: "SamplePackageB-iOS",
                     condition: .when(platforms: [.iOS])
                 ),
                 .product(
                     name: "3rdPartyAdapter",
-                    package: "SamplePackageB",
+                    package: "SamplePackageB-iOS",
                     condition: .when(platforms: [.iOS])
                 )
             ]
