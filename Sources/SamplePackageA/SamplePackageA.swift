@@ -1,6 +1,4 @@
 import SamplePackageB_iOS
-import OneSignal
+import ThirdPartyAdapter
 
 public let sample = SampleStruct.self
-
-public let onee = OneSignal()
