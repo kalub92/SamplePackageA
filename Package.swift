@@ -37,7 +37,7 @@ let package = Package(
                     condition: .when(platforms: [.iOS])
                 ),
                 .product(
-                    name: "3rdPartyAdapter",
+                    name: "ThirdPartyAdapter",
                     package: "SamplePackageB-iOS",
                     condition: .when(platforms: [.iOS])
                 )
