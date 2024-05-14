@@ -43,7 +43,10 @@ let package = Package(
                 ),
                 "SamplePackageAConfig"
             ],
-            resources: [.process("Resources")]
+            resources: [.process("Resources")],
+            swiftSettings: [
+                .define("BUILD_LIBRARY_FOR_DISTRIBUTION=YES")
+            ]
         ),
         .target(
             name: "SamplePackageAConfig",
