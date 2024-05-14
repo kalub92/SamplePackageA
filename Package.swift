@@ -45,7 +45,7 @@ let package = Package(
             ],
             resources: [.process("Resources")],
             swiftSettings: [
-                .define("BUILD_LIBRARY_FOR_DISTRIBUTION=YES")
+                .define("BUILD_LIBRARY_FOR_DISTRIBUTION")
             ]
         ),
         .target(
