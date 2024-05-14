@@ -1,4 +1,4 @@
 import SamplePackageB_iOS
-import ThirdPartyAdapter
+@_implementationOnly import ThirdPartyAdapter
 
 public let sample = SampleStruct.self
