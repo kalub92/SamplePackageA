@@ -40,8 +40,10 @@ let package = Package(
                     name: "ThirdPartyAdapter",
                     package: "SamplePackageB-iOS",
                     condition: .when(platforms: [.iOS])
-                )
-            ]
+                ),
+                "SamplePackageAConfig"
+            ],
+            resources: [.process("Resources")]
         ),
         .target(
             name: "SamplePackageAConfig",
