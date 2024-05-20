@@ -22,8 +22,8 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/kalub92/SamplePackageB-iOS.git",
-            branch: "master"
-        )
+            branch: "test-new-api"
+        ),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.

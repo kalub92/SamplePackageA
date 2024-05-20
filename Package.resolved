@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/kalub92/SamplePackageB-iOS.git",
       "state" : {
-        "branch" : "master",
-        "revision" : "2c06288969f704ac114e86f60851ee0ef1a260bd"
+        "branch" : "test-new-api",
+        "revision" : "6a29a0e5b1504fa3a47256bc794627e24afa433b"
       }
     }
   ],
