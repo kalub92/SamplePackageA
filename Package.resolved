@@ -15,7 +15,16 @@
       "location" : "https://github.com/kalub92/SamplePackageB-iOS.git",
       "state" : {
         "branch" : "master",
-        "revision" : "7e93ea48dcede9841038eaac1cc1c8d6bf106fae"
+        "revision" : "0569c1ea454cbb270bc15de7e7ce42be03de02fd"
+      }
+    },
+    {
+      "identity" : "samplepackageb-macos",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kalub92/SamplePackageB-macOS.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "e3b0bcf694790034c8a562863c81de61b1d03b75"
       }
     }
   ],

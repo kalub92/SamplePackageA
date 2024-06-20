@@ -6,6 +6,7 @@ import PackageDescription
 let package = Package(
     name: "SamplePackageA",
     defaultLocalization: "en",
+    platforms: [.iOS(.v14), .macOS(.v11), .tvOS(.v15), .watchOS(.v8)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
@@ -22,6 +23,10 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/kalub92/SamplePackageB-iOS.git",
+            branch: "master"
+        ),
+        .package(
+            url: "https://github.com/kalub92/SamplePackageB-macOS.git",
             branch: "master"
         )
     ],
@@ -40,6 +45,11 @@ let package = Package(
                     name: "ThirdPartyAdapter",
                     package: "SamplePackageB-iOS",
                     condition: .when(platforms: [.iOS])
+                ),
+                .product(
+                    name: "SamplePackageB-macOS",
+                    package: "SamplePackageB-macOS",
+                    condition: .when(platforms: [.macOS])
                 ),
                 "SamplePackageAConfig"
             ],
